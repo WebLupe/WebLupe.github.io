@@ -684,6 +684,12 @@ progress {
     max-width: 1320px;
   }
 }
+
+.container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -1408,7 +1414,7 @@ progress {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 30%;
+    width: 33.33%;
   }
 
   .col-lg-7 {
@@ -7496,6 +7502,11 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -11212,8 +11223,7 @@ html {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   background-color: #121212;
 }
 footer.footer .social-link {
@@ -11258,8 +11268,6 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.png");
   background-position: center center;
   background-repeat: no-repeat;
