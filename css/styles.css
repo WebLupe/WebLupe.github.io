@@ -11316,7 +11316,7 @@ footer.footer .social-linkRad {
   display: table;
   width: 100%;
   height: auto;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/Rad.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/rad.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
