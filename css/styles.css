@@ -7642,6 +7642,16 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-Rad {
+  --bs-bg-opacity: 1;
+  background-color: #C28EB6 !important;
+}
+
+.bg-Rad2 {
+  --bs-bg-opacity: 1;
+  background-color: #9D7294 !important;
+}
+
 .bg-good {
   --bs-bg-opacity: 1;
   background-color: #184959 !important;
@@ -11242,6 +11252,18 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
+footer.footer .social-linkRad {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #FDB8CC;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
 .map {
   height: 30rem;
 }
@@ -11286,6 +11308,18 @@ footer.footer .social-link:hover {
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
   }
+}
+
+.althead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/rad.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolio-item {
