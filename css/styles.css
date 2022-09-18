@@ -81,6 +81,15 @@ img {
   }
 }
 
+.RateRedirect {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.RateRedirect:Hover {
+  color: #ffffff
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
