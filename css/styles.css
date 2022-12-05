@@ -11159,6 +11159,10 @@ html {
   background-color: #121212;
 }
 
+.cancel-padding-bottom {
+  padding-bottom: 0rem !important;
+}
+
 .content-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -11243,6 +11247,7 @@ html {
 
 footer.footer {
   padding-bottom: 3rem;
+  padding-top: 3rem;
   background-color: #121212;
 }
 footer.footer .social-link {
