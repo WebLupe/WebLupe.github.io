@@ -74,11 +74,10 @@
 img {
     pointer-events: none;
 }
---OWN CSS--
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
+
+.about-text {
+  color: white;
+  text-align: center;
 }
 
 .RateRedirect {
@@ -143,7 +142,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
-  style="color:white;"
+  color:white;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -252,7 +251,7 @@ sup {
 
 a {
   color: #1D809F;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #17667f;
@@ -264,7 +263,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 .Font {
-    font-style; Helvetica;
+    font-style: Helvetica;
     letter-spacing: 1px;
 }
 
@@ -2861,6 +2860,10 @@ textarea.form-control-lg {
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
   opacity: 0.65;
+}
+
+.btn-color-index {
+  background-color: transparent !important;
 }
 
 .btn-primary {
@@ -11159,6 +11162,10 @@ html {
   background-color: #121212;
 }
 
+.small-margin {
+  margin-right: 0.5rem;
+}
+
 .cancel-padding-bottom {
   padding-bottom: 0rem !important;
 }
@@ -11278,6 +11285,25 @@ footer.footer .social-linkRad {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+div.social {
+  background-color: transparent;
+}
+div.social .social-link {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #184959;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+div.social .social-link:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .map {
   height: 30rem;
 }
@@ -11324,16 +11350,12 @@ footer.footer .social-linkRad {
   }
 }
 
+.indexhead {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-index.png");
+}
+
 .althead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/rad.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .portfolio-item {
@@ -11369,6 +11391,8 @@ footer.footer .social-linkRad {
   .portfolio-item {
     max-width: none;
     margin: 0;
+    }
+  }
 
 .service-icon {
   background-color: #fff;
