@@ -2877,6 +2877,11 @@ textarea.form-control-lg {
   border-color: #1D809F;
   font-style: Helvetica;
 }
+
+.btn-top-alt {
+  border-width: 0.1rem;
+  border-color: #fff;
+}
 .btn-primary:hover {
   color: #fff;
   background-color: #196d87;
@@ -11258,7 +11263,7 @@ html {
 }
 
 footer.footer {
-  padding-bottom: 3rem;
+  padding-bottom: 3.7rem;
   padding-top: 3rem;
   background-color: #121212;
 }
